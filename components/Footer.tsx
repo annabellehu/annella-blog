@@ -24,7 +24,7 @@ export default function Footer() {
               Twitter
             </a>
             <a 
-              href="mailto:hello@annella.site"
+              href="mailto:annabellehu88@gmail.com"
               className="text-gray-500 hover:text-gray-900 transition-colors text-sm"
             >
               Email

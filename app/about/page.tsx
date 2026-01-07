@@ -34,14 +34,14 @@ export default function About() {
           <ul className="space-y-2 text-gray-700">
             <li>
               <span className="font-medium">Email:</span>{' '}
-              <a href="mailto:hello@annella.site" className="text-blue-600 hover:underline">
-                hello@annella.site
+              <a href="mailto:annabellehu88@gmail.com" className="text-blue-600 hover:underline">
+                annabellehu88@gmail.com
               </a>
             </li>
             <li>
               <span className="font-medium">GitHub:</span>{' '}
               <a 
-                href="https://github.com" 
+                href="https://github.com/annabellehu/"    
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
