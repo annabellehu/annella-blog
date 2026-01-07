@@ -1,5 +1,5 @@
 ---
-title: 欢迎来到我的博客
+title: 庄子 内篇
 date: 2026-01-07
 excerpt: 庄子 内篇
 tags: [道家,哲学]
