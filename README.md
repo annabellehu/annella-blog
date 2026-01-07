@@ -104,7 +104,7 @@ annella-blog/
 ## 💬 联系方式
 
 - **网站**: [annella.site](https://annella.site)
-- **Email**: hello@annella.site
+- **Email**: annabellehu88@gmail.com
 
 ## 📝 License
 
