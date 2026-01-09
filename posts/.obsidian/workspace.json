@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f53ffa9315b3229f",
+        "id": "4e1f3209221f5099",
         "type": "tabs",
         "children": [
           {
-            "id": "afbbf43a4fc28507",
+            "id": "5e0cd6ec3278856e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "about.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -182,10 +182,11 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "afbbf43a4fc28507",
+  "active": "5e0cd6ec3278856e",
   "lastOpenFiles": [
-    "zhuangzi.md",
+    "annabellehu88@gmail.com.md",
     "about.md",
+    "zhuangzi.md",
     "next-js-blog-tutorial.md"
   ]
 }

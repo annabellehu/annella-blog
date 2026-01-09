@@ -21,7 +21,5 @@ tags:
 
 ## 欢迎交流
 
-转载请注明出处：[annella.site](https://annella.site)
-
-交流请联系： annellahu@outlook.com
+交流请联系：<annellahu@outlook.com>
 
