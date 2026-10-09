@@ -2,21 +2,33 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fcfaf7;
+  --foreground: #3d3832;
+  --accent: #059669;
+  --accent-hover: #047857;
+  --border: #e8e4db;
+  --surface: #f6f3ed;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-border: var(--border);
+  --color-surface: var(--surface);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1c1b18;
+    --foreground: #e8e4db;
+    --accent: #34d399;
+    --accent-hover: #6ee7b7;
+    --border: #3d3832;
+    --surface: #262420;
   }
 }
 
@@ -26,15 +38,46 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 代码块样式 */
-.prose pre {
-  @apply bg-gray-900 text-gray-100 rounded-lg p-4 overflow-x-auto;
+.prose {
+  --tw-prose-body: var(--foreground);
+  --tw-prose-headings: var(--foreground);
+  --tw-prose-links: var(--accent);
+  --tw-prose-bold: var(--foreground);
+  --tw-prose-code: var(--foreground);
+  --tw-prose-pre-bg: #2d2a26;
+  --tw-prose-pre-code: #e8e4db;
 }
 
-.prose code {
-  @apply text-gray-800 bg-gray-100 px-1 py-0.5 rounded;
+.prose pre {
+  @apply rounded-xl overflow-x-auto shadow-sm;
+  background: var(--tw-prose-pre-bg);
+  color: var(--tw-prose-pre-code);
+}
+
+.prose code:not(pre code) {
+  @apply rounded-md px-1.5 py-0.5 text-sm;
+  background: var(--surface);
+  color: var(--accent);
+  font-weight: 500;
 }
 
 .prose pre code {
-  @apply bg-transparent text-gray-100 p-0;
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.prose a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.prose a:hover {
+  color: var(--accent-hover);
+}
+
+::selection {
+  background: #d1fae5;
+  color: #065f46;
 }
